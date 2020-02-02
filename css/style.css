@@ -4,8 +4,11 @@
 }
 
 body {
-    padding: 1% 0;
     background: #003563;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .cv-main {
@@ -32,6 +35,7 @@ body {
 
 .bio {
     justify-content: center;
+    align-items: center;
 }
 
 .avatar img {
@@ -39,7 +43,6 @@ body {
 }
 
 .info {
-    align-self: center;
     margin-left: 15%;
 }
 
