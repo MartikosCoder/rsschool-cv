@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 1% 0;
+    background: #003563;
+}
+
+.cv-main {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #005290;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cv-main section {
+    display: flex;
+    padding: 0 5% 2%;
+}
+
+.cv-main section:not(:first-child) {
+    flex-direction: column;
+}
+
+.cv-main section:last-child {
+    padding-bottom: 0;
+}
+
+.bio {
+    justify-content: center;
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
+.info {
+    align-self: center;
+    margin-left: 15%;
+}
+
+.link {
+    color: white;
+}
+
+.link:hover {
+    color: #c5c5c5;
+    transition: .25s;
+}
+
+.skill__item {
+    margin: 0 5%;
+}
