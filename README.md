@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://martikoscoder.github.io/rsschool-cv/cv
